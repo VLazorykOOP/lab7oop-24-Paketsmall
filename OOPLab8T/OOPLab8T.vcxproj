@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="example.cpp" />
     <ClCompile Include="OOPLab8T.cpp" />
+    <ClCompile Include="SingleNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="example.h" />
