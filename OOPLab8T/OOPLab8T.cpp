@@ -22,8 +22,8 @@ void findMax(const T* arr, int size, T& maxVal, int& count) {
         }
     }
 }
-
-void findMax(const char** arr, int size, const char*& maxVal, int& count) { //для char
+template<>
+void findMax(const char* * arr, int size, const char*& maxVal, int& count) { //для char
     if (size == 0) {
         maxVal = nullptr;
         count = 0;
